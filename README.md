@@ -193,7 +193,7 @@ Rural Tennessee, United States
 Independent AI researcher. No formal computer science background. This work emerged from 14 months of intensive pattern recognition applied to AI behavioral dynamics.
 
 - Email: theforgottencode780@gmail.com
-- Mirror Protocol™ — U.S. Copyright Registration No. 1-14949237971
+- The West Method™ — U.S. Copyright Registration No. 1-14953838171
 
 ## License
 
