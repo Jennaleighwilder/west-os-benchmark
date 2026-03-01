@@ -2,8 +2,8 @@
 
 **Disturbance Cost — a systems primitive that meters consequence, not compute.**
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](./paper/west_os_paper_v2.pdf)
-[![Benchmark](https://img.shields.io/badge/Benchmark-Reproducible-green)](./benchmark/)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](./west_os_paper_v2.pdf)
+[![Benchmark](https://img.shields.io/badge/Benchmark-Reproducible-green)](./benchmark.py)
 [![License](https://img.shields.io/badge/License-See%20Below-blue)](#license)
 
 ---
@@ -146,23 +146,23 @@ python3 generate_figures.py
 ## Figures
 
 ### Cascade Failures Across Governance Strategies
-![Cascade Failures](./figures/fig2_cascades.png)
+![Cascade Failures](./fig2_cascades.png)
 
 ### False Positives — Legitimate Actions Incorrectly Blocked
-![False Positives](./figures/fig3_false_positives.png)
+![False Positives](./fig3_false_positives.png)
 
 ### Total Harm — Cumulative Instability Above Safety Threshold
-![Total Harm](./figures/fig4_total_harm.png)
+![Total Harm](./fig4_total_harm.png)
 
 ### System Instability Over Time
-![Instability](./figures/fig1_instability.png)
+![Instability](./fig1_instability.png)
 
 ### Agent Survival
-![Survival](./figures/fig5_survival.png)
+![Survival](./fig5_survival.png)
 
 ## Paper
 
-The full paper is available at [paper/west_os_paper_v2.pdf](./paper/west_os_paper_v2.pdf).
+The full paper is available at [west_os_paper_v2.pdf](./west_os_paper_v2.pdf).
 
 **Citation:**
 ```bibtex

@@ -53,7 +53,7 @@ fig.legend(handles, labels, loc='lower right', fontsize=10, ncol=3,
 fig.suptitle('Figure 1: System Instability Over Time Under Three Governance Strategies',
              fontsize=13, fontweight='bold', y=0.98)
 plt.tight_layout(rect=[0, 0.05, 1, 0.95])
-plt.savefig('/home/claude/fig1_instability.png', dpi=200, bbox_inches='tight')
+plt.savefig('fig1_instability.png', dpi=200, bbox_inches='tight')
 plt.close()
 
 # ─── Figure 2: Cascade Failures (bar chart) ──────────────────────
@@ -100,7 +100,7 @@ ax.legend(fontsize=10)
 ax.grid(axis='y', alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('/home/claude/fig3_false_positives.png', dpi=200, bbox_inches='tight')
+plt.savefig('fig3_false_positives.png', dpi=200, bbox_inches='tight')
 plt.close()
 
 # ─── Figure 4: Total Harm comparison ─────────────────────────────
@@ -122,7 +122,7 @@ ax.legend(fontsize=10)
 ax.grid(axis='y', alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('/home/claude/fig4_total_harm.png', dpi=200, bbox_inches='tight')
+plt.savefig('fig4_total_harm.png', dpi=200, bbox_inches='tight')
 plt.close()
 
 # ─── Figure 5: Agents Alive Over Time (representative) ──────────
@@ -150,7 +150,7 @@ fig.legend(handles, labels, loc='lower right', fontsize=10, ncol=3,
 fig.suptitle('Figure 5: Agent Survival Under Three Governance Strategies',
              fontsize=13, fontweight='bold', y=0.98)
 plt.tight_layout(rect=[0, 0.05, 1, 0.95])
-plt.savefig('/home/claude/fig5_survival.png', dpi=200, bbox_inches='tight')
+plt.savefig('fig5_survival.png', dpi=200, bbox_inches='tight')
 plt.close()
 
 # ─── Summary Table Data ──────────────────────────────────────────
