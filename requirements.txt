@@ -1,0 +1,3 @@
+# Optional: for generate_figures.py only. Benchmark has zero dependencies.
+matplotlib>=3.5
+numpy>=1.20

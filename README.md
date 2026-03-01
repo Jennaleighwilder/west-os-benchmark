@@ -134,13 +134,17 @@ python3 benchmark.py
 # Results printed to console + saved to benchmark_results.json
 ```
 
-Requirements: Python 3.8+, no external dependencies. The benchmark is self-contained.
+**Requirements:** Python 3.8+, no external dependencies. The benchmark is self-contained.
 
-Optional — generate figures:
+**Reproducibility:** Tested on Python 3.10–3.14, macOS/Linux. One-liner:
+```bash
+python3 benchmark.py && python3 -c "import json; d=json.load(open('benchmark_results.json')); print('✓', len(d), 'scenarios')"
+```
+
+**Optional — generate figures:**
 ```bash
 pip install matplotlib numpy
-python3 generate_figures.py
-# Produces fig1-fig5 as PNG files
+python3 generate_figures.py   # Run benchmark.py first; produces fig1–fig5.png
 ```
 
 ## Figures

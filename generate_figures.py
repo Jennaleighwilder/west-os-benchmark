@@ -7,11 +7,12 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Load data
-with open("/home/claude/plot_data.json") as f:
+# Load data (run benchmark.py first)
+import os
+_data_dir = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(_data_dir, "plot_data.json")) as f:
     plot_data = json.load(f)
-
-with open("/home/claude/benchmark_results.json") as f:
+with open(os.path.join(_data_dir, "benchmark_results.json")) as f:
     results = json.load(f)
 
 COLORS = {
@@ -78,7 +79,7 @@ ax.legend(fontsize=10)
 ax.grid(axis='y', alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('/home/claude/fig2_cascades.png', dpi=200, bbox_inches='tight')
+plt.savefig('fig2_cascades.png', dpi=200, bbox_inches='tight')
 plt.close()
 
 # ─── Figure 3: False Positives (bar chart) ───────────────────────

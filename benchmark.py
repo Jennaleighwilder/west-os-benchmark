@@ -505,12 +505,12 @@ if __name__ == "__main__":
             save_data = {k: v for k, v in data.items() if k != "representative_run"}
             save_results[scenario][strat] = save_data
 
-    with open("/home/claude/benchmark_results.json", "w") as f:
+    with open("benchmark_results.json", "w") as f:
         json.dump(save_results, f, indent=2)
 
     # Save plot data
     plot_data = generate_data_for_plots(results)
-    with open("/home/claude/plot_data.json", "w") as f:
+    with open("plot_data.json", "w") as f:
         json.dump(plot_data, f, indent=2)
 
     print(f"\n\nResults saved to benchmark_results.json and plot_data.json")
