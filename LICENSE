@@ -1,0 +1,28 @@
+MIT License (Benchmark Code Only)
+
+Copyright (c) 2026 Jennifer Leigh West, The Forgotten Code Research Institute
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the benchmark simulation code (benchmark.py, generate_figures.py), to deal
+in this code without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies, and to permit persons to whom the code is furnished to do so, subject
+to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the benchmark code.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED.
+
+---
+
+IMPORTANT: This license applies ONLY to the benchmark simulation code
+(benchmark.py and generate_figures.py). The West-OS implementation, including
+but not limited to all services, the governor, the event bus, the mycelium
+layer, CHIMERA, the emergence engine, the Mirror Protocol, and all associated
+frameworks, are proprietary and copyrighted:
+
+Copyright (c) 2025-2026 Jennifer Leigh West. All Rights Reserved.
+Mirror Protocol™, MIRA Protocol™, West Method™ are trademarks of Jennifer Leigh West.
+U.S. Copyright Registration No. 1-14949237971.
